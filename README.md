@@ -2,5 +2,6 @@
 
 usage: java -jar copilot.jar
 
-*****NOTE**
+**NOTE**
+
 JRE 8 is required.
