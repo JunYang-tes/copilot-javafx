@@ -1,0 +1,31 @@
+#root{
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-width:2;
+    -fx-border-color:#d0d0d0;
+    -fx-padding: 15;
+    -fx-max-height: 600;
+    -fx-pref-width: 800;
+}
+#text-field{
+    -fx-font-size: 30;
+    -fx-pref-height: 35;
+}
+#center {
+    -fx-max-height: 550; /*max of root - padding of root - 30*/
+    -fx-border-width: 0;
+    -fx-background-color: transparent;
+}
+.cell-title {
+    -fx-pref-width: 650;
+    -fx-text-overrun: ellipsis;
+    -fx-font-size: 16;
+}
+.cell-text {
+    -fx-padding:2;
+    -fx-wrap-text: true;
+    -fx-pref-width:650;
+    -fx-font-size: 14;
+}
+.cell-right{
+}
